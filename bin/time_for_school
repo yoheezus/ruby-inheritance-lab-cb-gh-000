@@ -24,3 +24,5 @@ jim.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts "Jim just learned this import knowledge: '#{jim.knowledge.first}' from Avi"
+
+jim.learn(steve.knowledge)
