@@ -23,5 +23,5 @@ steve.learn(new_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-jim.learn(steve.knowledge)
-puts "Jim just learned this import knowledge: '#{jim.knowledge.first.to_str}' from Steve"
+jim.learn(steve.knowledge[0])
+puts "Jim just learned this import knowledge: '#{jim.knowledge.first}' from Steve"
